@@ -150,8 +150,6 @@ public class BlindTestFrame extends Application {
     private void startRound(TextField guessField, RadioButton prop1, RadioButton prop2, RadioButton prop3) {
         currentTitre = selectRandomTitre();
         refreshWinnerText();
-        guessField.setText(winnerText);
-        System.out.println(winnerText);
         titresInterpretes = getRandomTitreInterpretes();
         initRadioButtons(titresInterpretes, prop1, prop2, prop3);
         lyricsPane.setLyrics(rounds.get(currentTitre).getValue());

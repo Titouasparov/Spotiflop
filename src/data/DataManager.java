@@ -225,7 +225,7 @@ public class DataManager {
      * @throws IOException - si une erreur se produit lors de la lecture du fichier.
      */
     public static void downloadSongs(String fileName) throws IOException {
-        String filePath = "C:\\Users\\beauv\\IdeaProjects\\Spotiflop\\resources\\" + fileName;
+        String filePath = "resources\\" + fileName;
         StringBuilder content = new StringBuilder();
 
         // Lire tout le fichier dans une seule chaîne
